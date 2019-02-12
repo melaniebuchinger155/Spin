@@ -25,10 +25,7 @@ public class MainActivity extends AppCompatActivity {
         list.add("Montag");
         list.add("Dienstag");
         list.add("Mittwoch");
-        list.add("Donnerstag");
-        list.add("Freitag");
-        list.add("Samstag");
-        list.add("Sonntag");
+
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list  );
         adapter.setDropDownViewResource( android.R.layout.simple_spinner_dropdown_item );
