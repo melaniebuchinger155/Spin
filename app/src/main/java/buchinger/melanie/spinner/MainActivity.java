@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
         list.add("Montag");
         list.add("Dienstag");
         list.add("Mittwoch");
+        list.add("Montag");
+        list.add("Dienstag");
+        list.add("Mittwoch");
 
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, list  );
